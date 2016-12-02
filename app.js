@@ -7,7 +7,7 @@ app.set('view engine', 'handlebars');
 
 app.set('port', process.env.PORT || 3000);
 
-var baseURL = 'https://url-shortcut.herokuapp.com/' + '/';
+var baseURL = 'https://url-shortcut.herokuapp.com' + '/';
 
 // baseURL used for localhost development and test
 // var baseURL = 'http://localhost:' + app.get('port') + '/';

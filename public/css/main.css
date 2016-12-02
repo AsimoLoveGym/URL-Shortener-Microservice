@@ -17,7 +17,31 @@ main {
 
 ul, code, samp {
   font-size: 12px;
-  /*line-height: 1.2;*/
+}
+
+#table-container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+table {
+  background-color: #34495E;
+  color: white;
+  border-radius: 5px;
+}
+
+table th {
+  color: #dd5;
+}
+
+/* credit to Davide Pastore for borderless table http://stackoverflow.com/questions/18075794/bootstrap-table-without-stripe-borders*/
+.table-borderless tbody tr td,
+.table-borderless tbody tr th,
+.table-borderless thead tr th,
+.table-borderless thead tr td,
+.table-borderless tfoot tr th,
+.table-borderless tfoot tr td {
+    border: none;
 }
 
 @media (min-width: 768px) {

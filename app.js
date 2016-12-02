@@ -7,9 +7,10 @@ app.set('view engine', 'handlebars');
 
 app.set('port', process.env.PORT || 3000);
 
-// var baseURL = + '/';
+var baseURL = 'https://url-shortcut.herokuapp.com/' + '/';
+
 // baseURL used for localhost development and test
-var baseURL = 'http://localhost:' + app.get('port') + '/';
+// var baseURL = 'http://localhost:' + app.get('port') + '/';
 var reservedChannel = [8888, 7777, 3000];
 var urlCollection = [
   {
@@ -17,7 +18,7 @@ var urlCollection = [
   short_url: baseURL + reservedChannel[0],
 },
 {
-  original_url: 'https://www.freecodecamp.com/',
+  original_url: 'https://www.freecodecamp.com',
   short_url: baseURL + reservedChannel[1],
 },
 {

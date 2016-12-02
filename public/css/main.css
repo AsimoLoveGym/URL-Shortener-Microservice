@@ -8,6 +8,10 @@ main {
   margin-top: 2%;
   margin-bottom: 3em; }
 
+h4 {
+  margin-top: 1em;
+}
+
 #display-container {
   padding: 2em;
   background-color: #f1e9d2;
@@ -17,6 +21,10 @@ main {
 
 ul, code, samp {
   font-size: 12px;
+}
+
+code {
+  margin-left: 1em;
 }
 
 #table-container {
